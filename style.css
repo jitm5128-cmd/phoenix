@@ -90,14 +90,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
+/* FOOTER TEXT */
 .site-footer {
     background-color: #ffffff;
     font-size: 15px;
@@ -176,7 +169,6 @@ body {
     width: auto;
   }
 
-  
   /* Mobile Responsive */
   @media (max-width: 768px) {
     .logo-container {
@@ -187,4 +179,17 @@ body {
     .logo-box {
       justify-content: center;
     }
+  }
+
+  /* GALLERY PAGE IMAGES */
+  .col-md-4 img {
+    width: 100%;            /* responsive */
+    max-width: 400px;       /* keep original size */
+    border-radius: 10px;    /* smooth corners */
+    padding: 5px;           /* inner space */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  .images,
+  .col-md-4 img {
+      margin-top: 12px;
   }

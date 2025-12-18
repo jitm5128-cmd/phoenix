@@ -90,10 +90,10 @@ include("admin_inc/navbar.php")
     </div>
 </section>
 
-<!-- CARS -->
+<!-- FLEET -->
 <div >
 <section class="py-5 ">
-    <div class="feature-box container text-center" style="background-color: white;">
+    <div class=" container text-center" style="background-color: white;">
         <h2 class="mb-4">Our Fleet</h2>
         <p class="text-muted mx-auto" style="max-width: 900px;">
         Our fleet presents a distinguished selection of Mercedes-Benz vehicles. Privately owned, we boast an array of models ranging from the latest E-Class Saloons and Estates to multi-seater MPVs. This diversity ensures our capability to furnish the ideal size and class of vehicle tailored to your specific needs and preferences.
@@ -107,7 +107,7 @@ include("admin_inc/navbar.php")
             </div>
         </div>
         
-        <a href="book.php" class="btn btn-warning fw-semibold mt-4 px-4">Book Now</a>
+        
     </div>
 </section>
 </div>

@@ -31,25 +31,25 @@
         <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
             <ul class="navbar-nav align-items-lg-center gap-lg-3">
                 <li class="nav-item">
-                    <a class="nav-link active-link" href="#">Home</a>
+                    <a class="nav-link active-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Private Guided Tours</a>
+                    <a class="nav-link" href="privateGuided.php">Private Guided Tours</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
                         Contact Us
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
-                        <li><a class="dropdown-item" href="#">Terms & Condition</a></li>
+                        <li><a class="dropdown-item" href="privacy.php">Privacy Policy</a></li>
+                        <li><a class="dropdown-item" href="termscondition.php">Terms & Condition</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Book</a>
+                    <a class="nav-link" href="book.php">Book</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link" href="gallery.php">Gallery</a>
                 </li>
             </ul>
 
