@@ -18,12 +18,7 @@ include("admin_inc/navbar.php")
              
             </div>
         </div>
-        <!-- <h1 class="fw-semibold">
-            
-        </h1>
-        <p class="mt-3">
-            
-        </p> -->
+     
     </div>
 </section>
 
@@ -38,8 +33,8 @@ include("admin_inc/navbar.php")
 </section>
 
 <!-- AIRPORT TRANSFER -->
-<section class="py-5 bg-light">
-    <div class="container text-center">
+<section class="airport py-5">
+    <div class=" container text-center">
         <h2 class="mb-4">Private Airport Transfers</h2>
         <hr>
         <p class="text-muted mx-auto" style="max-width: 900px;">
@@ -51,34 +46,83 @@ include("admin_inc/navbar.php")
 </section>
 
 <!-- FEATURES -->
-<section class="py-5">
-    <div class="container">
-        <div class="row text-center g-4">
-            <div class="col-6 col-md-3">
-                <div class="feature-box p-3">
-                    <h6 class="fw-semibold">Online Booking</h6>
-                </div>
-            </div>
-            <div class="col-6 col-md-3">
-                <div class="feature-box p-3">
-                    <h6 class="fw-semibold">Available 24 Hours</h6>
-                </div>
-            </div>
-            <div class="col-6 col-md-3">
-                <div class="feature-box p-3">
-                    <h6 class="fw-semibold">We Work 365 Days</h6>
-                </div>
-            </div>
-            <div class="col-6 col-md-3">
-                <div class="feature-box p-3">
-                    <h6 class="fw-semibold">Affordable Prices</h6>
-                </div>
-            </div>
-        </div>
+<div class="container">
+<section class="services">
+  <div class="container sevice">
+
+    <div class="service-box" style="border-left: 1px solid #ccc;">
+      <i class="fa-solid fa-desktop"></i>
+      <h3>Online Booking</h3>
+      <p>
+      Book in a few minutes from your mobile, tablet or PC, you choose. Tell us the date, destination, and number of passengers, and we will be waiting for you on time.
+      </p>
     </div>
+
+    <div class="service-box">
+      <i class="fa-regular fa-clock"></i>
+      <h3>Available 24 Hours</h3>
+      <p>
+      We are a 24 hour service but our offices close between the hours of 20:00 and 08:00. Out of hours contact number is 07848833488 for emergencies.
+      </p>
+    </div>
+
+    <div class="service-box">
+      <i class="fa-solid fa-calendar-days"></i>
+      <h3>We Work 365 Days</h3>
+      <p>
+      Both on weekdays and weekends and holidays, we are at your disposal. We work every day of the year.
+      </p>
+    </div>
+
+    <div class="service-box">
+      <i class="fa-regular fa-thumbs-up"></i>
+      <h3>More Affordable Prices</h3>
+      <p>
+      You can see our rates and check that we have very tight prices. Quality transfers at the best cost.
+    </div>
+
+  </div>
+  <div class="container sevice">
+
+    <div class="service-box" style="border-left: 1px solid #ccc;">
+    <i class="fa-solid fa-plane"></i> 
+      <h3>Airport Transfer</h3>
+      <p>
+      Transfer from/to the Airport. We have vehicles adapted to all kinds of needs. (Up to 6 seats)
+      </p>
+    </div>
+
+    <div class="service-box">
+    <i class="fa-regular fa-clock"></i>
+      <h3>No Waiting</h3>
+      <p>
+      Upon arrival, the driver will already be at the collection point. We do not make the client wait; we are punctual with the agreed time.
+      </p>
+    </div>
+
+    <div class="service-box">
+    <i class="fa-solid fa-bed"></i>           
+      <h3>Transfer Hotels</h3>
+      <p>
+      Are you going to a hotel? We take you to the door. We work with the leading hotels in UK.
+      </p>
+    </div>
+
+    <div class="service-box">
+    <i class="fa-solid fa-location-dot"></i> 
+      <h3>Events</h3>
+      <p>
+      Offering premium options for party, wedding, and corporate event hire.
+      </p>
+    </div>
+
+  </div>
 </section>
+</div>
+
+
 <!-- /EVENTS -->
-<section class="py-5 bg-light">
+<section class="events py-5">
     <div class="container text-center">
         <h2 class="mb-4">EVENTS</h2>
         <hr>
