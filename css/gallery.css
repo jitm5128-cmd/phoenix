@@ -1,0 +1,22 @@
+/* GALLERY PAGE IMAGES */
+.col-md-4 img {
+    width: 100%;            /* responsive */
+    max-width: 400px;       /* keep original size */
+    border-radius: 10px;    /* smooth corners */
+    padding: 5px;           /* inner space */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: block;
+    transition: .3s;
+  }
+  .images,
+  .col-md-4 img {
+    border-radius: 10px;
+      margin-top: 12px;
+
+  }
+  .col-md-4{
+    overflow: hidden;
+  }
+  .col-md-4:hover img{
+    scale: 1.1;
+  }

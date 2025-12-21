@@ -1,0 +1,117 @@
+* HERO */
+.hero {
+    min-height: 100vh;
+    background-image: url("image/Frame3.png")
+        center/cover no-repeat;
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 100%;
+}
+.airport {
+  background-image: url("image/Frame 8.png"); /* your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.events {
+  background-image: url("image/Ellipse 2.png.png"); /* your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* BUTTON OVERRIDE */
+.btn-warning {
+    color: #000;
+}
+
+/* RESPONSIVE TEXT */
+@media (min-width: 768px) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+    .hero span {
+        font-size: 1rem;
+    }
+}
+
+
+/* Private Guided */
+
+/* Background section */
+.hero1 {
+    min-height: 100vh;
+    background: url("image/Frame 7.png")
+    center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 15px;
+  }
+  
+  /* OUTER BORDER */
+  .outer-border {
+    padding: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+  }
+  
+  /* INNER WHITE BOX */
+  .inner-box {
+    position: relative;
+    max-width: 520px;
+    background: rgba(255, 255, 255, 0.92);
+    padding: 50px 40px;
+    text-align: center;
+  }
+  
+  /* INNER THIN BORDER */
+  .inner-box::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    right: 18px;
+    bottom: 18px;
+    border: 1px solid #cfcfcf;
+    pointer-events: none;
+  }
+  
+  /* TEXT STYLING */
+  .top-text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+  }
+  
+  .inner-box h2 {
+    margin: 35px 0 25px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .inner-box p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 18px;
+  }
+  
+  /* BUTTON */
+  .more-btn {
+    margin-top: 25px;
+    padding: 10px 30px;
+    background: #d4aa00;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  

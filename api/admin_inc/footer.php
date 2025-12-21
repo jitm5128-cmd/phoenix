@@ -1,19 +1,19 @@
 <section class="trusted-logos">
-  <div class="logo-container">
+    <div class="logo-container">
 
-    <!-- Transport for London -->
-    <div class="logo-box">
-      <img src="image/tfor.jpeg" alt="Transport for London">
-      <!-- <span>Transport<br>for London</span> -->
+        <!-- Transport for London -->
+        <div class="logo-box">
+            <img src="image/tfor.jpeg" alt="Transport for London">
+            <!-- <span>Transport<br>for London</span> -->
+        </div>
+
+        <!-- ICO -->
+        <div class="logo-box">
+            <img src="image/ico.jpeg" alt="ICO">
+            <!-- <span class="small-text">Information Commissioner's Office</span> -->
+        </div>
+
     </div>
-
-    <!-- ICO -->
-    <div class="logo-box">
-      <img src="image/ico.jpeg" alt="ICO">
-      <!-- <span class="small-text">Information Commissioner's Office</span> -->
-    </div>
-
-  </div>
 </section>
 
 <div class="container">
@@ -34,25 +34,25 @@
                     <div class="collapse navbar-collapse " id="mainNavbar">
                         <ul class="navbar-nav align-items-lg-center  gap-lg-3">
                             <li class="nav-item">
-                                <a class="active-link" href="#">Home</a>
+                                <a class="active-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#">Private Guided Tours</a>
+                                <a href="privateguide.php">Private Guided Tours</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                <a class="nav-link dropdown-toggle" href="contact.php" data-bs-toggle="dropdown">
                                     Contact Us
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
-                                    <li><a class="dropdown-item" href="#">Terms & Condition</a></li>
+                                    <li><a class="dropdown-item" href="privacypolicy.php">Privacy Policy</a></li>
+                                    <li><a class="dropdown-item" href="termscondition.php">Terms & Condition</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Book</a>
+                                <a class="nav-link" href="book.php">Book</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Gallery</a>
+                                <a class="nav-link" href="gallery.php">Gallery</a>
                             </li>
                         </ul>
 
@@ -105,10 +105,80 @@
 </div>
 
 <!-- Bottom Footer -->
+<style>
+  @media (max-width: 768px) {
+    .bottom-bar {
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+    .bottom-left,
+    .bottom-right {
+      justify-content: center;
+    }
+  }
+</style>
 
+<div class="bottom-bar" style="
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#d9d9d9;
+  padding:12px 40px;
+  font-size:14px;
+  font-family:Arial, sans-serif;
+  flex-wrap:wrap;
+">
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- LEFT -->
+  <div class="bottom-left" style="
+    display:flex;
+    align-items:center;
+    gap:20px;
+  ">
+    <span>© 2025 Phoenix Travel and Tours London</span>
+
+    <a href="sitemap.html" style="
+      color:#333;
+      text-decoration:underline;
+    ">sitemap</a>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="bottom-right" style="
+    display:flex;
+    align-items:center;
+    gap:12px;
+  ">
+    <span>Follow us</span>
+
+    <a href="#" style="
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      width:28px;
+      height:28px;
+      background:#f5c842;
+      color:#000;
+      text-decoration:none;
+      font-weight:bold;
+      border-radius:4px;
+    ">f</a>
+
+    <a href="#" style="
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      width:28px;
+      height:28px;
+      background:#f5c842;
+      color:#000;
+      text-decoration:none;
+      font-weight:bold;
+      border-radius:4px;
+    ">◎</a>
+  </div>
+
+</div>
+
 </body>
-
-</html>

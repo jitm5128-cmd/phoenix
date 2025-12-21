@@ -2,7 +2,7 @@
 include("admin_inc/navbar.php")
 ?>
 <!-- HERO SECTION -->
-<section class="hero d-flex align-items-center text-center text-white">
+<section class="hero d-flex align-items-center text-center text-white " >
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -20,8 +20,12 @@ include("admin_inc/navbar.php")
         </div>
      
     </div>
+ 
+  
 </section>
+<div class="curve-top">
 
+</div>
 <!-- TRAVEL DIFFERENCE -->
 <section class="py-5">
     <div class="container text-center">
@@ -44,7 +48,18 @@ include("admin_inc/navbar.php")
         <a href="#" class="btn btn-warning fw-semibold mt-4 px-4">Book Now</a>
     </div>
 </section>
-
+<div class="curve-bottom">
+<svg viewBox="0 0 1440 120" preserveAspectRatio="none" style="display:block;">
+  <path 
+    d="M0,0 
+       C240,20 480,60 720,60 
+       C960,60 1200,20 1440,0 
+       L1440,120 
+       L0,120 
+       Z" 
+    fill="#ffffff"/>
+</svg>
+</div>
 <!-- FEATURES -->
 <div class="container">
 <section class="services">
@@ -120,6 +135,35 @@ include("admin_inc/navbar.php")
 </section>
 </div>
 
+<!-- Private Guided Tours -->
+<section class="hero1">
+  <div class="outer-border">
+    <div class="inner-box">
+
+      <p class="top-text">
+        Embark on an enriching exploration of London with our bespoke private guided tours,
+        meticulously crafted to offer a personalized and immersive experience. Our expert
+        guides, well-versed in the city’s rich history, architecture, and cultural nuances,
+        are committed to providing an insightful and engaging journey.
+      </p>
+
+      <h2>Private Guided Tours</h2>
+
+      <p>
+        Experience the allure of London’s vibrant neighborhoods, each with its unique charm
+        and character as our knowledgeable guides share fascinating anecdotes and historical insights.
+      </p>
+
+      <p>
+        Our fleet of comfortable and stylish vehicles ensures seamless transportation between
+        attractions, allowing you to make the most of your time in this captivating city.
+      </p>
+
+      <button class="more-btn">More Info</button>
+
+    </div>
+  </div>
+</section>
 
 <!-- /EVENTS -->
 <section class="events py-5">
@@ -144,10 +188,10 @@ include("admin_inc/navbar.php")
         </p>
         <div class="row">
         <div class="col-md-6" >
-            <img width="400px" src="image/car1final.jpeg" alt="">
+            <img width="300px" src="image/car1final.jpeg" alt="">
             </div>
             <div class="col-md-6" >
-                <img width="400px" src="image/car2final.jpeg" alt="">
+                <img width="300px" src="image/car2final.jpeg" alt="">
             </div>
         </div>
         
@@ -161,3 +205,8 @@ include("admin_inc/navbar.php")
 <?php 
 include("admin_inc/footer.php")
 ?>
+<style>
+
+
+
+  </style>

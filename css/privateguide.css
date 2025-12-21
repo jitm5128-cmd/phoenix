@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* HEADER */
+  .pdf-header {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f4f4f4;
+  }
+  
+  .pdf-header h1 {
+    font-size: 34px;
+    margin-bottom: 15px;
+  }
+  
+  .pdf-header p {
+    max-width: 800px;
+    margin: auto;
+    color: #666;
+    line-height: 1.7;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background: #f1c40f;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  /* SECTIONS */
+  .pdf-section {
+    padding: 90px 20px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .bg-london { background-image: url("image/card1.jpeg"); }
+  .bg-stone { background-image: url("image/card2.jpeg"); }
+  .bg-bath { background-image: url("image/card3.jpeg"); }
+  .bg-oxford { background-image: url("image/card4.jpeg"); }
+  .bg-windsor { background-image: url("image/card5.jpeg"); }
+  .bg-leeds { background-image: url("image/card6.jpeg"); }
+  .bg-hampton { background-image: url("image/card7.jpeg"); }
+  
+  /* CARD */
+  .pdf-card {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    background: #fff;
+    height: 430px;
+  }
+  
+  .pdf-card.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  /* TEXT */
+  .pdf-text {
+    width: 52%;
+    padding: 55px 60px;
+    text-align: center;
+  }
+  
+  .pdf-text h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  
+  .pdf-text p {
+    font-size: 14px;
+    line-height: 1.9;
+    color: #666;
+  }
+  
+  /* IMAGE */
+  .pdf-image {
+    width: 48%;
+  }
+  
+  .pdf-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .pdf-card,
+    .pdf-card.reverse {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .pdf-text,
+    .pdf-image {
+      width: 100%;
+    }
+  
+    .pdf-image {
+      height: 300px;
+    }
+  }
+  

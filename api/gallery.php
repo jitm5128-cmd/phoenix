@@ -27,13 +27,13 @@ include("admin_inc/navbar.php")
 
 
                     <div class="col-md-4">
-                        <img class="images" width="400px" src="" alt="">
+                       
                     </div>
                     <div class="col-md-4 images">
                         <img width="400px" src="image/car6.jpeg" alt="">
                     </div>
                     <div class="col-md-4">
-                        <img width="400px" src="" alt="">
+                        
                     </div>
                 </div>
             </div>

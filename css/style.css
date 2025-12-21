@@ -107,10 +107,11 @@ body {
   }
 }
 
+
 /* HERO */
 .hero {
     min-height: 100vh;
-    background: url("image/Frame3.png")
+    background-image: url("image/Frame3.png")
         center/cover no-repeat;
     padding-top: 20px;
     position: relative;
@@ -124,14 +125,14 @@ body {
   height: 100%;
 }
 .airport {
-  background: url("image/Frame 8.png"); /* your image path */
+  background-image: url("image/Frame 8.png"); /* your image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
 .events {
-  background: url("image/Ellipse 2.png"); /* your image path */
+  background-image: url("image/Ellipse 2.png"); /* your image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -149,7 +150,7 @@ body {
         font-size: 4rem;
     }
     .hero span {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
 
@@ -208,13 +209,12 @@ body {
   }
   
   .trusted-logos {
-    display: flex;
     background-color: #000000;
     padding: 60px 20px;
   }
   
   .logo-container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -231,8 +231,8 @@ body {
   }
   
   .logo-box img {
-    max-height: 200px;
-    width: 200px;
+    max-height: 100px;
+    width: auto;
   }
 
   /* Mobile Responsive */
@@ -537,6 +537,74 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
+
+
+    
+
+.foot-bar {
+  background: #d9d9d9;
+  padding: 12px 15px;
+  font-family: Arial, sans-serif;
+}
+
+.foot-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.foot-left {
+  display: flex;
+  font-size: 14px;
+  color: #333;
+  gap: 20px;
+}
+
+.foot-center a {
+  font-size: 14px;
+  color: #555;
+  text-decoration: underline;
+}
+
+/* .foot-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #ca1c1c;
+} */
+.goat{
+  display: inline;
+  align-items: center;
+  color: #f5c400;
+  background-color: rgb(37, 160, 58);
+}
+
+.foot-ri{
+  display:flex;
+  align-items: center;
+  color: chocolate;
+  background: #911616;
+}
+
+
+.foot-right img {
+  width: 2px;
+  height: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .foot-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 
 
 
