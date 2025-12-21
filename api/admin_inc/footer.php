@@ -19,48 +19,32 @@
 <div class="container">
     <footer class="site-footer">
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light fixed-buttom ">
-                <div class="container-fluid px-4">
+        <footer class="site-footer">
+    <div class="container-fluid px-4">
+        <ul class="footer-nav">
+            <li>
+                <a class="active-link" href="index.php">Home</a>
+            </li>
+            <li>
+                <a href="privateguide.php">Private Guided Tours</a>
+            </li>
+            <li class="footer-dropdown">
+                <a href="contact.php">Contact Us</a>
+                <!-- <ul class="footer-dropdown-menu">
+                    <li><a href="privacypolicy.php">Privacy Policy</a></li>
+                    <li><a href="termscondition.php">Terms & Condition</a></li>
+                </ul> -->
+            </li>
+            <li>
+                <a href="book.php">Book</a>
+            </li>
+            <li>
+                <a href="gallery.php">Gallery</a>
+            </li>
+        </ul>
+    </div>
+</footer>
 
-
-
-                    <!-- Mobile Toggle -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#mainNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- Menu -->
-                    <div class="collapse navbar-collapse " id="mainNavbar">
-                        <ul class="navbar-nav align-items-lg-center  gap-lg-3">
-                            <li class="nav-item">
-                                <a class="active-link" href="index.php">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="privateguide.php">Private Guided Tours</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="contact.php" data-bs-toggle="dropdown">
-                                    Contact Us
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="privacypolicy.php">Privacy Policy</a></li>
-                                    <li><a class="dropdown-item" href="termscondition.php">Terms & Condition</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="book.php">Book</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="gallery.php">Gallery</a>
-                            </li>
-                        </ul>
-
-
-                    </div>
-
-
-                </div>
 
     </footer>
     <div class="col-lg-6 col-md-12 mb-3">
@@ -106,6 +90,120 @@
 
 <!-- Bottom Footer -->
 <style>
+  /* ======================
+   FOOTER BASE
+====================== */
+.site-footer {
+    background:rgb(255, 255, 255);
+    padding: 20px 0;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.footer-nav li a {
+    color:#111;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+    color: #f4c430;
+}
+
+/* Active link */
+.footer-nav .active-link {
+    color: #f4c430;
+}
+
+.footer-nav .active-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #f4c430;
+}
+
+/* ======================
+   DROPDOWN (FOOTER)
+====================== */
+.footer-dropdown {
+    position: relative;
+}
+
+.footer-dropdown-menu {
+    list-style: none;
+    position: absolute;
+    bottom: 130%;
+    left: 0;
+    color: #111;
+    background: #111;
+    padding: 10px 0;
+    min-width: 180px;
+    display: none;
+    border-radius: 6px;
+}
+
+.footer-dropdown-menu li a {
+    display: block;
+    padding: 8px 15px;
+    font-size: 13px;
+    color: #111;
+}
+
+.footer-dropdown-menu li a:hover {
+    background: #f4c430;
+    color: #000;
+}
+
+/* Show dropdown on hover (desktop) */
+.footer-dropdown:hover .footer-dropdown-menu {
+    display: block;
+}
+
+/* ======================
+   MOBILE RESPONSIVE
+====================== */
+@media (max-width: 768px) {
+
+    .footer-nav {
+        flex-direction: row;
+        gap: 14px;
+        text-align: center;
+    }
+
+    .footer-dropdown-menu {
+        position: static;
+        display: block;
+        background: transparent;
+        padding: 0;
+        margin-top: 6px;
+    }
+
+    .footer-dropdown-menu li a {
+        padding: 6px 0;
+        font-size: 13px;
+    }
+
+    /* Remove underline on mobile */
+    .active-link::after {
+        display: none;
+    }
+}
+
   @media (max-width: 768px) {
     .bottom-bar {
       flex-direction: column;
@@ -177,6 +275,8 @@
       font-weight:bold;
       border-radius:4px;
     ">◎</a>
+
+    
   </div>
 
 </div>

@@ -68,12 +68,6 @@
   grid-column: 1 / -1;
 }
 
-.git-checkbox {
-  display: flex;
-  gap: 10px;
-  font-size: 14px;
-  margin-bottom: 25px;
-}
 
 .git-submit-btn {
   background: #f5c400;
@@ -88,19 +82,28 @@
 }
 
 
-.recaptcha-box {
-  display: flex;
+.consent-row {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.captcha-row {
+  display: none;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.captcha-box {
+  display: inline-flex;
   align-items: center;
   gap: 10px;
+  padding: 12px 18px;
   border: 1px solid #ccc;
-  padding: 10px 15px;
+  border-radius: 4px;
   background: #f9f9f9;
+  font-size: 14px;
 }
-
-.recaptcha-box img {
-  width: 30px;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   .git-form {

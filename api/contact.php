@@ -36,23 +36,25 @@ include("admin_inc/navbar.php")
             <textarea class="git-textarea"></textarea>
           </div>
   
-          <div class="git-form-bottom">
-            <div class="git-checkbox">
-              <input type="checkbox">
-              <span>
-                By checking this box and submitting your information, you are granting us permission
-                to email you. You may unsubscribe at any time.
-              </span>
-            </div>
-   <!-- reCAPTCHA placeholder -->
- 
-        <input type="checkbox" class="recaptcha-box">
-        <span>I’m not a robot</span>
-        <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="recaptcha">
-           <p>
-           <button type="submit" class="git-submit-btn">Send Message</button>
-           </p> 
-          </div>
+          <<div class="consent-row">
+  <label>
+    <input type="checkbox" id="consentCheck">
+    By checking this box and submitting your information, you are granting us permission to email you.
+  </label>
+</div>
+
+<!-- CAPTCHA ROW -->
+<div class="captcha-row" id="captchaRow">
+  <div class="captcha-box">
+    <input type="checkbox" disabled>
+    <span>I'm not a robot</span>
+    <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="captcha">
+  </div>
+</div>
+
+<label>
+    <input type="submit" id="consentCheck" style="background: #e0b200;">
+  </label>
 
   
         </form>
@@ -61,6 +63,19 @@ include("admin_inc/navbar.php")
     </div>
   </section>
 
+
+  <script>
+  const consentCheck = document.getElementById("consentCheck");
+  const captchaRow = document.getElementById("captchaRow");
+
+  consentCheck.addEventListener("change", function () {
+    if (this.checked) {
+      captchaRow.style.display = "block";
+    } else {
+      captchaRow.style.display = "none";
+    }
+  });
+</script>
 <!-- FOOTER  -->
 <?php
 include("admin_inc/footer.php")
