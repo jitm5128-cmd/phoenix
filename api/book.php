@@ -7,8 +7,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
    <br>
     <form action="insert.php" method="post">
     <div class="container">
-        <br><br><br>
-        <p class="text">Pickup Address</p>
+        <br><br>
+        <h2 style="margin-top: 5%; padding-bottom:10px">Book Now</h2>
+        <p class="text" >Pickup Address</p>
         <p>Address Line 1</p>
        <input class="form-control" type="text" name="Addressline1" placeholder="Address Line 1"><br>
        <p>Drop-off Address</p>
@@ -37,7 +38,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         
        <label for="comment">Your Message:</label>
 <textarea class="form-control" rows="5" id="comment" name="YourMessage"></textarea><br>
-<input class="btn btn-primary" type="submit" name="submit" value="Submit Form">
+<input class="btn btn-primary" type="submit" name="submit" value="Submit Form" style="margin-bottom: 5%;">
     </form>
 <br>
     </div>

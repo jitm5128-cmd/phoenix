@@ -215,7 +215,7 @@
   align-items:center;
   background:#d9d9d9;
   padding:12px 40px;
-  font-size:14px;
+  font-size:16px;
   font-family:Arial, sans-serif;
   flex-wrap:wrap;
 ">
@@ -228,7 +228,7 @@
   ">
     <span>© 2025 Phoenix Travel and Tours London</span>
 
-    <a href="sitemap.html" style="
+    <a href="https://phoenixtravelandtourslondon.com/wp-sitemap.xml" style="
       color:#333;
       text-decoration:underline;
     ">sitemap</a>
@@ -242,7 +242,7 @@
   ">
     <span>Follow us</span>
 
-    <a href="#" style="
+    <a href="https://www.facebook.com/people/Phoenix-Travel-and-Tours/61553620327728/" style="
       display:inline-flex;
       align-items:center;
       justify-content:center;
@@ -253,9 +253,9 @@
       text-decoration:none;
       font-weight:bold;
       border-radius:4px;
-    ">f</a>
+    "><i class="fa-brands fa-facebook"></i></a>
 
-    <a href="#" style="
+    <a href="https://www.instagram.com/phoenixtravellondon/" style="
       display:inline-flex;
       align-items:center;
       justify-content:center;
@@ -266,7 +266,7 @@
       text-decoration:none;
       font-weight:bold;
       border-radius:4px;
-    ">◎</a>
+    "><i class="fa-brands fa-instagram"></i></a>
 
     
   </div>

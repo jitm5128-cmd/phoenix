@@ -4,8 +4,8 @@ body {
 
 /* NAVBAR */
 .custom-navbar {
-  background: linear-gradient(to right, #0a0a0a, #1a1a1a);
-  padding: 12px 0;
+  background: linear-gradient(to right, #000000, #000000);
+  padding: 0;
   z-index: 999;
 }
 .navbar-dark .navbar-nav .nav-link {
@@ -75,7 +75,7 @@ body {
 @media (max-width: 991px) {
 
   .navbar-collapse {
-      background: #0f0f0f;
+      background: #000000;
       padding: 15px;
       border-radius: 8px;
       margin-top: 10px;

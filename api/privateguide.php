@@ -31,7 +31,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     line-height: 1.7;
   }
   
-  .btn {
+  /* .btn {
     display: inline-block;
     margin-top: 25px;
     padding: 12px 28px;
@@ -40,7 +40,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     text-decoration: none;
     font-weight: 600;
   }
-  
+   */
   /* SECTIONS */
   .pdf-section {
     padding: 90px 20px;
@@ -156,7 +156,13 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     For additional details regarding any of the private guided tours mentioned below
     or to make a booking inquiry, please do not hesitate to contact us using the button below.
   </p>
-  <a href="contact.php" class="btn">Contact Us</a>
+  <a href="contact.php" class="btn" style="  display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background: #f1c40f;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;">Contact Us</a>
 </section>
 
 <!-- LONDON -->

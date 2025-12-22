@@ -24,7 +24,7 @@
 
         <!-- Logo -->
         <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="image/logo.jpg" alt="Logo" width="50">
+            <img src="image/logo.jpg" alt="Logo" width="100">
         </a>
 
         <!-- Mobile Toggle -->
@@ -56,7 +56,7 @@
 
             <!-- Call Button -->
             <a href="tel:+440000000000" class="btn btn-warning ms-lg-4 fw-semibold call-btn">
-                📞 Call
+                <i class="fa-solid fa-phone"></i> Call
             </a>
         </div>
 
