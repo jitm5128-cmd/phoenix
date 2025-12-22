@@ -45,15 +45,6 @@
                     <a class="nav-link <?= ($currentPage == 'contact.php') ? 'active-link' : '' ?>" href="contact.php">Contact Us</a>
                 </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link " href="#" data-bs-toggle="dropdown">
-                    ▼
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="privacypolicy.php">Privacy Policy</a></li>
-                        <li><a class="dropdown-item" href="termscondition.php">Terms & Condition</a></li>
-                    </ul>
-                </li>
 
                 <li class="nav-item">
                     <a class="nav-link <?= ($currentPage == 'book.php') ? 'active-link' : '' ?>" href="book.php">Book</a>

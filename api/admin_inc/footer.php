@@ -20,7 +20,7 @@
     <footer class="site-footer">
         <div class="container-fluid">
         <footer class="site-footer">
-    <div class="container-fluid px-4">
+    <div class="container-fluid px-4" style="display: flex;">
         <ul class="footer-nav">
             <li>
                 <a class="active-link" href="index.php">Home</a>
@@ -41,6 +41,14 @@
             <li>
                 <a href="gallery.php">Gallery</a>
             </li>
+            <li>
+                <a href="privacypolicy.php">privacy policy</a>
+            </li>
+            <li>
+                <a href="termscondition.php">terms & condition</a>
+            </li>
+            
+            
         </ul>
     </div>
 </footer>
