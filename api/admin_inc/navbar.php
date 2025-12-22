@@ -24,7 +24,7 @@
 
         <!-- Logo -->
         <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="image/logo.jpg" alt="Logo" width="100">
+            <img src="image/logo-removebg-preview.png" alt="Logo" width="70">
         </a>
 
         <!-- Mobile Toggle -->

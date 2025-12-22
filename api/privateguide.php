@@ -151,7 +151,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <!-- HEADER -->
 <section class="pdf-header">
   <br><br>
-  <h1>Private Guided Tours</h1>
+  <h1 style="margin-top: 5%;">Private Guided Tours</h1>
   <p>
     For additional details regarding any of the private guided tours mentioned below
     or to make a booking inquiry, please do not hesitate to contact us using the button below.
