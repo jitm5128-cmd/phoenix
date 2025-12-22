@@ -36,18 +36,18 @@
         <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
             <ul class="navbar-nav align-items-lg-center gap-lg-3">
                 <li class="nav-item">
-                    <a class="nav-link active-link" href="index.php">Home</a>
+                    <a class="nav-link <?= ($currentPage == 'index.php') ? 'active-link' : '' ?>" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="privateguide.php">Private Guided Tours</a>
+                    <a class="nav-link <?= ($currentPage == 'privateguide.php') ? 'active-link' : '' ?>" href="privateguide.php">Private Guided Tours</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact Us</a>
+                    <a class="nav-link <?= ($currentPage == 'contact.php') ? 'active-link' : '' ?>" href="contact.php">Contact Us</a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                        More
+                    <a class="nav-link " href="#" data-bs-toggle="dropdown">
+                    ▼
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="privacypolicy.php">Privacy Policy</a></li>
@@ -56,10 +56,10 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="book.php">Book</a>
+                    <a class="nav-link <?= ($currentPage == 'book.php') ? 'active-link' : '' ?>" href="book.php">Book</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.php">Gallery</a>
+                    <a class="nav-link <?= ($currentPage == 'gallery.php') ? 'active-link' : '' ?>" href="gallery.php">Gallery</a>
                 </li>
             </ul>
 

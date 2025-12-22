@@ -70,23 +70,7 @@
 </div>
 
 </div>
-<div class="container-fluid">
-    <!-- Top Footer -->
 
-    <div class="row py-4">
-        <div class="container">
-
-        </div>
-        <!-- Address -->
-
-
-        <!-- Navigation Links -->
-
-        <!-- Social Media -->
-
-
-    </div>
-</div>
 
 <!-- Bottom Footer -->
 <style>

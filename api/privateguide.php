@@ -1,6 +1,9 @@
 <?php 
 include("admin_inc/navbar.php")
 ?>
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
 <style>
   * {
     margin: 0;
@@ -45,13 +48,13 @@ include("admin_inc/navbar.php")
     background-position: center;
   }
   
-  .bg-london { background-image: url("image/card1.jpeg"); }
-  .bg-stone { background-image: url("image/card2.jpeg"); }
-  .bg-bath { background-image: url("image/card3.jpeg"); }
-  .bg-oxford { background-image: url("image/card4.jpeg"); }
-  .bg-windsor { background-image: url("image/card5.jpeg"); }
-  .bg-leeds { background-image: url("image/card6.jpeg"); }
-  .bg-hampton { background-image: url("image/card7.jpeg"); }
+  .bg-london { background-image: url("image/card1_faded.png"); }
+  .bg-stone { background-image: url("image/card2_faded.png"); }
+  .bg-bath { background-image: url("image/card3_faded.png"); }
+  .bg-oxford { background-image: url("image/card4_faded.png"); }
+  .bg-windsor { background-image: url("image/card5_faded.png"); }
+  .bg-leeds { background-image: url("image/card6_faded.png"); }
+  .bg-hampton { background-image: url("image/card7_faded.png"); }
   
   /* CARD */
   .pdf-card {
@@ -147,12 +150,13 @@ include("admin_inc/navbar.php")
 
 <!-- HEADER -->
 <section class="pdf-header">
+  <br><br>
   <h1>Private Guided Tours</h1>
   <p>
     For additional details regarding any of the private guided tours mentioned below
     or to make a booking inquiry, please do not hesitate to contact us using the button below.
   </p>
-  <a href="#" class="btn">Contact Us</a>
+  <a href="contact.php" class="btn">Contact Us</a>
 </section>
 
 <!-- LONDON -->

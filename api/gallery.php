@@ -1,6 +1,9 @@
 <?php
 include("admin_inc/navbar.php")
 ?>
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
 <br><br><br>
 <div class="container">
     <div>

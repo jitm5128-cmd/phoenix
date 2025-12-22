@@ -1,5 +1,9 @@
 <?php 
 include("admin_inc/navbar.php")
+
+?>
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
 ?>
 <!-- HERO SECTION -->
 <section class="hero d-flex align-items-center text-center text-white " >
@@ -45,7 +49,7 @@ include("admin_inc/navbar.php")
         Whether your visit to London is for business or leisure, alone or with family and friends, we offer a diverse fleet of vehicles tailored to meet your specific needs. Our executive saloons epitomize comfort and sophistication, while our MPVs are designed to accommodate entire families and small groups. <br><br>
         Rely on Phoenix for a secure, dependable, and courteous airport chauffeur service. Our commitment ensures your punctual arrival under any circumstances. With impeccably presented chauffeurs possessing extensive knowledge of London and a fleet comprising the latest vehicles, we consistently welcome returning clients season after season. All our Airport Chauffeur Services include comprehensive flight monitoring from departure, a complimentary meet and greet with refreshments, including soft drinks and water, and a complimentary phone charger. Additionally, we provide one hour of waiting time upon landing, at no additional cost.
         </p>
-        <a href="#" class="btn btn-warning fw-semibold mt-4 px-4">Book Now</a>
+        <a href="book.php" class="btn btn-warning fw-semibold mt-4 px-4">Book Now</a>
     </div>
 </section>
 <div class="curve-bottom">
@@ -158,8 +162,7 @@ include("admin_inc/navbar.php")
         Our fleet of comfortable and stylish vehicles ensures seamless transportation between
         attractions, allowing you to make the most of your time in this captivating city.
       </p>
-
-      <button class="more-btn">More Info</button>
+      <a href="privateguide.php" class="btn btn-warning fw-semibold mt-4 px-4">More info</a>
 
     </div>
   </div>
@@ -174,7 +177,7 @@ include("admin_inc/navbar.php")
         Elevate your special occasions with our sophisticated event transportation services, tailored to meet the unique needs of parties, corporate events, and weddings. At Phoenix Travel And Tours London, we understand the importance of seamless and stylish transportation to enhance the overall experience of your event. Whether you’re planning an intimate celebration or a grand corporate affair, our fleet of meticulously maintained vehicles and professional chauffeurs ensure a touch of elegance and reliability.<br><br>
         Securing our event transportation services is seamless. Simply reach out to us via our website or contact information provided. Our dedicated events team will work closely with you to understand your requirements and customize a transportation package tailored to your event. From vehicle selection to itinerary planning, we’re here to ensure every detail aligns with your vision. At Phoenix Travel And Tours London, we take pride in delivering unparalleled event transportation experiences. Elevate your next celebration or corporate gathering with our premium services, where sophistication meets reliability.
         </p>
-        <a href="#" class="btn btn-warning fw-semibold mt-4 px-4">Contact Us</a>
+        <a href="contact.php" class="btn btn-warning fw-semibold mt-4 px-4">Contact Us</a>
     </div>
 </section>
 

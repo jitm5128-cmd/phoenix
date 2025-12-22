@@ -1,7 +1,9 @@
 <?php
 include("admin_inc/navbar.php")
 ?>
-
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
 <section class="git-contact-wrap">
     <div class="git-bg-overlay">
       <div class="git-container">
@@ -36,7 +38,7 @@ include("admin_inc/navbar.php")
             <textarea class="git-textarea"></textarea>
           </div>
   
-          <<div class="consent-row">
+          <div class="consent-row">
   <label>
     <input type="checkbox" id="consentCheck">
     By checking this box and submitting your information, you are granting us permission to email you.
@@ -46,14 +48,18 @@ include("admin_inc/navbar.php")
 <!-- CAPTCHA ROW -->
 <div class="captcha-row" id="captchaRow">
   <div class="captcha-box">
-    <input type="checkbox" disabled>
+    <input type="checkbox" >
     <span>I'm not a robot</span>
     <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="captcha">
   </div>
 </div>
 
 <label>
-    <input type="submit" id="consentCheck" style="background: #e0b200;">
+    <input type="submit" style="background: #f5c400;
+  border: none;
+  padding: 12px 30px;
+  font-size: 15px;
+  cursor: pointer;">
   </label>
 
   

@@ -10,29 +10,43 @@ body {
   }
   
   .navbar-dark .navbar-nav .nav-link {
-    color: #ddd;
+    color: #ebebeb;
     font-size: 14px;
     position: relative;
     padding: 8px 0;
     transition: color 0.3s ease;
   }
   
+  /* Hover color */
   .navbar-dark .navbar-nav .nav-link:hover {
     color: #f4c430;
   }
   
-  .active-link {
-    color: #f4c430 !important;
-  }
-  
-  .active-link::after {
+  /* Hover underline */
+  .navbar-dark .navbar-nav .nav-link::after {
     content: "";
     position: absolute;
     left: 0;
     bottom: -4px;
-    width: 100%;
+    width: 0;
     height: 2px;
     background: #f4c430;
+    transition: width 0.3s ease;
+  }
+  
+  /* Show underline on hover */
+  .navbar-dark .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  /* Active link */
+  .active-link {
+    color: #f4c430 !important;
+  }
+  
+  /* Active underline */
+  .active-link::after {
+    width: 100%;
   }
   
   /* Call Button */
@@ -45,12 +59,12 @@ body {
   
   /* Dropdown */
   .dropdown-menu {
-    background: #111;
+    background: #d4d4d4;
     border: none;
   }
   
   .dropdown-item {
-    color: #ddd;
+    color: #000000;
   }
   
   .dropdown-item:hover {
