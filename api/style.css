@@ -1,7 +1,9 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
-
+.font-montserrat {
+  font-family: 'Montserrat' !important;
+}
 /* NAVBAR */
 .custom-navbar {
   background: linear-gradient(to right, #000000, #000000);
@@ -100,11 +102,13 @@ body {
   }
 }
 
-
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif !important;
+}
 /* HERO */
 .hero {
-    min-height: 100vh;
-    background: url("image/Frame3.png")
+    min-height: 90vh;
+    background: url("image/finalback.png")
         center/cover no-repeat;
     padding-top: 20px;
     position: relative;
@@ -151,9 +155,9 @@ body {
 
 /* FOOTER TEXT */
 .site-footer {
-    background-color: #ffffff;
+    background-color: #000000;
     font-size: 15px;
-    color: #444;
+    color: #ffffff;
     margin-bottom: 30px;
   }
   
@@ -277,7 +281,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
   }
   /* Background */
 .git-contact-wrap {

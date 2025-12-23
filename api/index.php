@@ -7,14 +7,14 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
 <!-- HERO SECTION -->
 <section class="hero d-flex align-items-center text-center text-white " >
-    <div class="container">
-        <div class="row">
+    <div class="container  font-montserrat">
+        <div class="row" >
             <div class="col-md-6">
-                <h1>Welcome to <br> Phoenix Travel <br>and Tours <br>London</h1>
+                <h1 style="font-family: Montserrat; text-align: left;">Welcome to <br> Phoenix Travel <br>and Tours <br>London</h1>
                 
             </div>
-            <div class="col-md-6 subtext">
-                <span>
+            <div class="col-md-6 subtext" style="text-align: right; font-family: Montserrat;">
+                <span style="color:#ffffff; text-shadow: 0 4px 8px rgba(0,0,0,0.45);">
                     Travel with a difference <br>
                     Private Airport Transfers <br>
                     Intuitive guided tours
@@ -32,9 +32,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 </div>
 <!-- TRAVEL DIFFERENCE -->
 <section class="py-5">
-    <div class="container text-center">
-        <h2 class="mb-4">Travel With A Difference</h2>
-        <p class="text-muted mx-auto" style="max-width: 900px;font-size: large;">
+    <div class="container text-center  font-montserrat">
+        <h2 class="mb-4" style="font-family: Montserrat;">Travel With A Difference</h2>
+        <p class=" mx-auto" style="max-width: 900px;font-size: larger;">
         Embark on a journey of distinction with our Executive Private Transport service, where every aspect is tailored to elevate your travel experience. Our commitment to excellence is reflected in our fleet of sophisticated vehicles, ensuring the epitome of comfort and style. From the moment you step into our meticulously appointed executive vehicles, you are enveloped in an atmosphere of refined luxury. Our chauffeurs, distinguished by their professionalism and extensive knowledge, are dedicated to providing a seamless and exclusive travel experience. Whether for business engagements or leisure pursuits, our Executive Private Transport service is designed to surpass expectations, offering a travel-with-a-difference service that prioritizes comfort, efficiency, and sophistication throughout your journey.
         </p>
     </div>
@@ -43,9 +43,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <!-- AIRPORT TRANSFER -->
 <section class="airport py-5">
     <div class=" container text-center">
-        <h2 class="mb-4">Private Airport Transfers</h2>
+        <h2 class="mb-4" style="font-family: Montserrat;">Private Airport Transfers</h2>
         <hr>
-        <p class="text-muted mx-auto" style="max-width: 900px; font-size: large;">
+        <p class=" mx-auto" style="max-width: 900px; font-size: larger;">
         Whether your visit to London is for business or leisure, alone or with family and friends, we offer a diverse fleet of vehicles tailored to meet your specific needs. Our executive saloons epitomize comfort and sophistication, while our MPVs are designed to accommodate entire families and small groups. <br><br>
         Rely on Phoenix for a secure, dependable, and courteous airport chauffeur service. Our commitment ensures your punctual arrival under any circumstances. With impeccably presented chauffeurs possessing extensive knowledge of London and a fleet comprising the latest vehicles, we consistently welcome returning clients season after season. All our Airport Chauffeur Services include comprehensive flight monitoring from departure, a complimentary meet and greet with refreshments, including soft drinks and water, and a complimentary phone charger. Additionally, we provide one hour of waiting time upon landing, at no additional cost.
         </p>
@@ -144,7 +144,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
   <div class="outer-border">
     <div class="inner-box">
 
-      <p class="top-text">
+      <p class="top-text" style="font-size: larger;"> 
         Embark on an enriching exploration of London with our bespoke private guided tours,
         meticulously crafted to offer a personalized and immersive experience. Our expert
         guides, well-versed in the city’s rich history, architecture, and cultural nuances,
@@ -153,12 +153,12 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
       <h2>Private Guided Tours</h2>
 
-      <p>
+      <p style="font-size: larger;">
         Experience the allure of London’s vibrant neighborhoods, each with its unique charm
         and character as our knowledgeable guides share fascinating anecdotes and historical insights.
       </p>
 
-      <p>
+      <p style="font-size: larger;">
         Our fleet of comfortable and stylish vehicles ensures seamless transportation between
         attractions, allowing you to make the most of your time in this captivating city.
       </p>
@@ -170,23 +170,50 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
 <!-- /EVENTS -->
 <section class="events py-5">
-    <div class="container text-center">
-        <h2 class="mb-4">EVENTS</h2>
-        <hr>
-        <p class="text-muted mx-auto" style="max-width: 900px; font-size: large;">
-        Elevate your special occasions with our sophisticated event transportation services, tailored to meet the unique needs of parties, corporate events, and weddings. At Phoenix Travel And Tours London, we understand the importance of seamless and stylish transportation to enhance the overall experience of your event. Whether you’re planning an intimate celebration or a grand corporate affair, our fleet of meticulously maintained vehicles and professional chauffeurs ensure a touch of elegance and reliability.<br><br>
-        Securing our event transportation services is seamless. Simply reach out to us via our website or contact information provided. Our dedicated events team will work closely with you to understand your requirements and customize a transportation package tailored to your event. From vehicle selection to itinerary planning, we’re here to ensure every detail aligns with your vision. At Phoenix Travel And Tours London, we take pride in delivering unparalleled event transportation experiences. Elevate your next celebration or corporate gathering with our premium services, where sophistication meets reliability.
-        </p>
-        <a href="contact.php" class="btn btn-warning fw-semibold mt-4 px-4">Contact Us</a>
+  <div class="container text-center">
+
+    <div class="events-text-box mx-auto">
+
+      <h2 class="mb-3 events-title">EVENTS</h2>
+      <hr class="events-divider">
+
+      <p class="events-subtext mx-auto">
+        Elevate your special occasions with our
+        <span class="highlight">sophisticated event transportation services</span>,
+        tailored to meet the unique needs of parties, corporate events, and weddings.
+        At Phoenix Travel And Tours London, we understand the importance of seamless
+        and stylish transportation to enhance the overall experience of your event.
+        Whether you’re planning an intimate celebration or a grand corporate affair,
+        our fleet of meticulously maintained vehicles and professional chauffeurs
+        ensure a touch of elegance and reliability.
+        <br><br>
+        Securing our event transportation services is seamless. Simply reach out to us
+        via our website or contact information provided. Our dedicated events team will
+        work closely with you to understand your requirements and customize a
+        transportation package tailored to your event. From vehicle selection to
+        itinerary planning, we’re here to ensure every detail aligns with your vision.
+        At Phoenix Travel And Tours London, we take pride in delivering unparalleled
+        event transportation experiences. Elevate your next celebration or corporate
+        gathering with our premium services, where
+        <span class="highlight">sophistication meets reliability</span>.
+      </p>
+
+      <a href="contact.php" class="btn btn-warning fw-semibold mt-4 px-4">
+        Contact Us
+      </a>
+
     </div>
+
+  </div>
 </section>
+
 
 <!-- FLEET -->
 <div >
 <section class="py-5 ">
     <div class=" container text-center" style="background-color: white;">
         <h2 class="mb-4">Our Fleet</h2>
-        <p class="text-muted mx-auto" style="max-width: 900px; font-size: large;">
+        <p class="text-muted mx-auto" style="max-width: 900px; font-size: larger;">
         Our fleet presents a distinguished selection of Mercedes-Benz vehicles. Privately owned, we boast an array of models ranging from the latest E-Class Saloons and Estates to multi-seater MPVs. This diversity ensures our capability to furnish the ideal size and class of vehicle tailored to your specific needs and preferences.
         </p>
         <div class="row">
@@ -210,6 +237,50 @@ include("admin_inc/footer.php")
 ?>
 <style>
 
+/* Glass-style text container */
+.events-text-box {
+  max-width: 950px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4px);
+  padding: 40px 45px;
+  border-radius: 16px;
+}
+
+/* Title */
+.events-title {
+  color: #1F2933;
+  letter-spacing: 2px;
+}
+
+/* Divider */
+.events-divider {
+  width: 80px;
+  margin: 0 auto 25px;
+  border-top: 2px solid #C9A24D;
+}
+
+/* Paragraph */
+.events-subtext {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #374151;
+}
+
+/* Gold highlight */
+.events-subtext .highlight {
+  color: #C9A24D;
+  font-weight: 600;
+}
+
+/* Button (optional hover polish) */
+.events .btn-warning {
+  background-color: #F4C430;
+  border: none;
+}
+
+.events .btn-warning:hover {
+  background-color: #E6B800;
+}
 
 
   </style>

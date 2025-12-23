@@ -1,7 +1,9 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat','Poppins', sans-serif;
 }
-
+.font-montserrat {
+  font-family: 'Montserrat' !important;
+}
 /* NAVBAR */
 .custom-navbar {
   background: linear-gradient(to right, #000000, #000000);
@@ -120,8 +122,8 @@ body {
 
 /* HERO */
 .hero {
-    min-height: 100vh;
-    background-image: url("image/Frame3.png")
+    min-height: 90vh;
+    background-image: url("image/finalback.png")
         center/cover no-repeat;
     padding-top: 20px;
     position: relative;
@@ -168,9 +170,9 @@ body {
 
 /* FOOTER TEXT */
 .site-footer {
-    background-color: #ffffff;
+    background-color: #000000;
     font-size: 15px;
-    color: #444;
+    color: #ffffff;
     margin-bottom: 30px;
   }
   
