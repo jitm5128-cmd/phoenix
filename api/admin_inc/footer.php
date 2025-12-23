@@ -199,7 +199,7 @@
   @media (max-width: 768px) {
     .bottom-bar {
       flex-direction: column;
-      gap: 10px;
+    
       text-align: center;
     }
     .bottom-left,
@@ -214,7 +214,7 @@
   justify-content:space-between;
   align-items:center;
   background:#d9d9d9;
-  padding:12px 40px;
+  padding:2px 5px;
   font-size:16px;
   font-family:Arial, sans-serif;
   flex-wrap:wrap;

@@ -13,7 +13,7 @@ body {
     color: #ebebeb;
     font-size: 14px;
     position: relative;
-    padding: 4px 0;
+    /* padding: 4px 0; */
     transition: color 0.3s ease;
   }
   
@@ -27,9 +27,9 @@ body {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -4px;
+    /* bottom: -4px; */
     width: 0;
-    height: 2px;
+    /* height: 2px; */
     background: #f4c430;
     transition: width 0.3s ease;
   }
@@ -77,9 +77,9 @@ body {
   
     .navbar-collapse {
         background: #000000;
-        padding: 15px;
+        /* padding: 15px;
         border-radius: 8px;
-        margin-top: 10px;
+        margin-top: 10px; */
     }
   
     .navbar-nav {

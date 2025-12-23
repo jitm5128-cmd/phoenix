@@ -20,11 +20,12 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
-    <div class="container-fluid px-4">
+    <div class="container-fluid">
 
         <!-- Logo -->
         <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="image/logo-removebg-preview.png" alt="Logo" width="70">
+            <img src="image/logo-removebg-preview (2).png" alt="Logo" width="160">
+            
         </a>
 
         <!-- Mobile Toggle -->
