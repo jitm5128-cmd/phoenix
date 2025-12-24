@@ -6,19 +6,27 @@ include("admin_inc/navbar.php")
 $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
 <!-- HERO SECTION -->
-<section class="hero d-flex align-items-center text-center text-white " >
+<section class="hero d-flex align-items-center text-left text-white " >
     <div class="container  font-montserrat">
         <div class="row" >
             <div class="col-md-6">
-                <h1 style="font-family: Montserrat; text-align: left;">Welcome to <br> Phoenix Travel <br>and Tours <br>London</h1>
-                
-            </div>
-            <div class="col-md-6 subtext" style="text-align: right; font-family: Montserrat;">
-                <span style="color:#ffffff; text-shadow: 0 4px 8px rgba(0,0,0,0.45);">
-                    Travel with a difference <br>
-                    Private Airport Transfers <br>
+                <h1 style="font-family: Montserrat; text-align: left; padding-top:70px;">Welcome to Phoenix Travel and Tours London</h1>
+                <span style="color:#ffffff;font-size: 20px; text-shadow: 0 4px 8px rgba(0,0,0,0.45);">
+                    Travel with a difference 
+                    Private Airport Transfers 
                     Intuitive guided tours
                 </span>
+               <p><a href="tel:02035765300" style="color:rgb(221, 174, 73); text-decoration: none !important;
+"><i class="fa-solid fa-phone" ></i> 020 3576 5300</a></p>
+               
+               <a href="mailto:info@phoenixtravelandtourslondon.com"  style="color: rgb(221, 174, 73); text-decoration: none !important;
+">
+               <i class="fa-solid fa-envelope"></i> info@phoenixtravelandtourslondon.com
+                </a>
+               <p><a href="book.php" class="btn btn-warning fw-semibold mt-4 px-4" style="margin-bottom: 20px;">Book Now</a></p> 
+            </div>
+            <div class="col-md-6 subtext" style="text-align: right; font-family: Montserrat;">
+               
              
             </div>
         </div>
@@ -218,10 +226,10 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         </p>
         <div class="row">
         <div class="col-md-6" >
-            <img width="300px" src="image/car1final.jpeg" alt="">
+            <img width="400px" src="image/car1final.jpeg" alt="">
             </div>
             <div class="col-md-6" >
-                <img width="300px" src="image/car2final.jpeg" alt="">
+                <img width="400px" src="image/car2final.jpeg" alt="">
             </div>
         </div>
         

@@ -26,7 +26,7 @@
                 <li><a href="book.php">Book</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
                 <li><a href="privacypolicy.php">Privacy Policy</a></li>
-                <li><a href="termscondition.php">Terms & Condition</a></li>
+                <li><a href="termscondition.php">Terms & Conditions</a></li>
             </ul>
         </div>
     </footer>
