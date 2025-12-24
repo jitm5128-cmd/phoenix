@@ -122,8 +122,8 @@ body {
 
 /* HERO */
 .hero {
-    min-height: 90vh;
-    background-image: url("image/finalback.png")
+    min-height: 100vh;
+    background-image: url("image/back3final.png")
         center/cover no-repeat;
     padding-top: 20px;
     position: relative;
