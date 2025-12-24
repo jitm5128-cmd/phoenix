@@ -5,10 +5,10 @@ include("admin_inc/navbar.php")
 $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
 <section class="git-contact-wrap" style="background-image: url('image/screen6.png');">
-    <div class="git-bg-overlay" style="    justify-content: center;
+    <div class="git-bg-overlay" style="justify-content: center;
     display: flex;
     margin-top: 50px;">
-      <div class="git-container" style="    padding-left: 20px;">
+      <div class="git-container" style="padding-left: 20px; padding-right: 20px;">
   
         <h2 class="git-title">Get In Touch</h2>
         <p class="git-desc">
